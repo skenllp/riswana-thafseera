@@ -72,6 +72,21 @@ document.addEventListener('DOMContentLoaded', () => {
         musicBtn.classList.remove('playing');
     }
 
+    // Stop / pause music when user closes the tab/window, switches tabs, or navigates away
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            pauseAudio();
+        }
+    });
+
+    window.addEventListener('pagehide', () => {
+        pauseAudio();
+    });
+
+    window.addEventListener('beforeunload', () => {
+        pauseAudio();
+    });
+
 
     /* ==========================================================================
        3. WEDDING COUNTDOWN TIMER

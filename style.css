@@ -386,7 +386,8 @@ body.locked { overflow: hidden; height: 100vh; }
 .bismillah {
     font-family: var(--font-arabic);
     font-size: 1.8rem;
-    color: var(--gold);
+    color: #36040b;
+    font-weight: 600;
     margin-bottom: 14px;
     letter-spacing: 0;
 }
@@ -396,7 +397,8 @@ body.locked { overflow: hidden; height: 100vh; }
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: var(--gold);
+    color: #4d0711;
+    font-weight: 600;
     margin-bottom: 14px;
 }
 
@@ -419,10 +421,10 @@ body.locked { overflow: hidden; height: 100vh; }
 .hero-divider .line {
     height: 1px;
     flex-grow: 1;
-    background: linear-gradient(to right, transparent, var(--gold), transparent);
+    background: linear-gradient(to right, transparent, #36040b, transparent);
 }
 .hero-divider .heart {
-    color: var(--gold);
+    color: #4d0711;
     font-size: 0.85rem;
     animation: heartbeat 1.6s infinite alternate;
 }
