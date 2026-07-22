@@ -944,12 +944,12 @@ body.locked { overflow: hidden; height: 100vh; }
 
 @media (max-width: 600px) {
     .container { padding: 60px 0; width: 92%; }
-    .hero-text-overlay { padding: 15px; width: 95%; }
+    .hero-text-overlay { padding: 15px; width: 95%; top: 43%; transform: translate(-50%, -50%); }
     .mobile-break { display: block; }
     .bismillah { font-size: 1.5rem; }
     .hero-names { font-size: 2.8rem; }
-    .hero-date { font-size: 1.15rem; transform: translateY(-3px); }
-    .hero-venue { font-size: 0.65rem; transform: translateY(-3px); }
+    .hero-date { font-size: 1.15rem; transform: translateY(-10px); }
+    .hero-venue { font-size: 0.65rem; transform: translateY(-10px); }
     .quote-card { padding: 32px 24px; }
     .dark-card { padding: 36px 22px; }
     .details-dark-card { padding: 36px 22px; }
