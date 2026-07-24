@@ -926,6 +926,7 @@ body.locked { overflow: hidden; height: 100vh; }
    RESPONSIVE
    ========================================================================== */
 @media (max-width: 900px) {
+    .mobile-break { display: block; }
     .family-grid {
         grid-template-columns: 1fr;
         gap: 24px;
